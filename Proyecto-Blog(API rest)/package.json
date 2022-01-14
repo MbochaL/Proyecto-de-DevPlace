@@ -1,0 +1,23 @@
+{
+  "name": "blog-node",
+  "version": "1.0.0",
+  "description": "protecto para el examen de devplace.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Martin Bosch",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.12.5",
+    "typeorm": "^0.2.41"
+  },
+  "devDependencies": {}
+}
